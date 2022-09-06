@@ -2,8 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '<h3>{{name}}</h3>',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app.component.html',
+  //styleUrls: ['./app.component.css']
+  styles:[`
+  h3 {
+    color:dodgerblue;
+  }
+  `]
+
 })
 export class AppComponent {
   title = 'my-first-app';
